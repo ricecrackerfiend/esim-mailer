@@ -12,7 +12,7 @@ jobs:
   build-and-test:
     uses: ./.github/workflows/build.yml
     with:
-      release: false
+      release: true
     secrets:
       GMAIL_CLIENT_ID: FakeSecret1
       GMAIL_CLIENT_SECRET: FakeSecret2
