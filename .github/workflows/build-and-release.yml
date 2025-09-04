@@ -37,7 +37,7 @@ jobs:
             asset_name: esim-mailer-macos-arm64.dmg
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Download artifact
         uses: actions/download-artifact@v4
