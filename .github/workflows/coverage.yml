@@ -17,7 +17,7 @@ jobs:
       image: xd009642/tarpaulin:latest
       options: --security-opt seccomp=unconfined
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
 
       - name: Cache Rust dependencies
         uses: actions/cache@v4
