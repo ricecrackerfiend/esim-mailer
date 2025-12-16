@@ -39,7 +39,7 @@ jobs:
         run: cargo install clippy-sarif sarif-fmt
 
       - name: Cache Rust dependencies
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: |
             ~/.cargo/registry
