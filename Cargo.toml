@@ -19,7 +19,7 @@ sha2 = "0.10.9"
 thiserror = "2.0.18"
 url = "2.5.8"
 uuid = { version = "1.20.0", features = ["v4"] }
-webbrowser = "1.0.6"
+webbrowser = "1.2.0"
 
 [target.'cfg(windows)'.dependencies]
 winapi = { version = "0.3", features = ["winuser"] }
